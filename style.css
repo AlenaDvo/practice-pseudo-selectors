@@ -1,0 +1,22 @@
+body {
+    margin: 0px auto;
+    position: relative;
+    width: 400px;
+    font-size: 20px;
+}
+
+div {
+    display: block;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    padding: 25px;
+}
+
+#last {
+    border-bottom: none;
+}
+
+div:hover {
+    background-color: orangered;
+}
